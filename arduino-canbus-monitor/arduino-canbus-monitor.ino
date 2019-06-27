@@ -16,7 +16,6 @@
 #include "can-232.h"
 #include "SoftwareSerial.h"
 
-#define DEBUG_MODE
 
 void setup() {
 	  Serial.begin(LW232_DEFAULT_BAUD_RATE); // default COM baud rate is 115200. 
